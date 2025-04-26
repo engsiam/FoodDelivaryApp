@@ -387,7 +387,7 @@ const Menu: React.FC = () => {
         ))}
       </div>
       {/* Custom Styles */}
-      <style jsx>{`
+      <style>{`
         .hide-scrollbar::-webkit-scrollbar {
           display: none;
         }

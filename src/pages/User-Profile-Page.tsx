@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+
 import AppNavigation from "../components/AppNavigation";
 
 const Profile: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<string>("profile");
+  // const [activeSection, setActiveSection] = useState<string>("profile");
 
   const user = {
     name: "Michael Johnson",

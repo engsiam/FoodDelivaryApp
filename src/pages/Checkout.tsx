@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import BakcButtob from "../components/BakcButtob";
 import AppNavigation from "../components/AppNavigation";
 const Checkout: React.FC = () => {
-  const [cartItems, setCartItems] = useState<
+  const [cartItems] = useState<
     {
       id: number;
       name: string;
@@ -43,7 +43,7 @@ const Checkout: React.FC = () => {
   ]);
   const [subtotal, setSubtotal] = useState<number>(0);
   const [tax, setTax] = useState<number>(0);
-  const [deliveryFee, setDeliveryFee] = useState<number>(2.99);
+  const [deliveryFee] = useState<number>(2.99);
   const [total, setTotal] = useState<number>(0);
   const [selectedAddress, setSelectedAddress] = useState<number>(1);
   const [selectedPayment, setSelectedPayment] = useState<number>(1);

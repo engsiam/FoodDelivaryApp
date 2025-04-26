@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+
 import AppNavigation from "../components/AppNavigation";
 import { Link } from "react-router-dom";
 
 const HomePage: React.FC = () => {
-  const [activeTab, setActiveTab] = useState("Home");
+  // const [activeTab, setActiveTab] = useState("Home");
 
   // Get current time to display appropriate greeting
   const getCurrentGreeting = () => {

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import App from "../App";
 import AppNavigation from "../components/AppNavigation";
 import BakcButtob from "../components/BakcButtob";
 import { Link } from "react-router-dom";

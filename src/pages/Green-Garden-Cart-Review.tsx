@@ -37,7 +37,7 @@ isVegetarian: true
 ]);
 const [subtotal, setSubtotal] = useState<number>(0);
 const [tax, setTax] = useState<number>(0);
-const [deliveryFee, setDeliveryFee] = useState<number>(2.99);
+const [deliveryFee] = useState<number>(2.99);
 const [total, setTotal] = useState<number>(0);
 useEffect(() => {
 const newSubtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
@@ -253,7 +253,7 @@ Continue Shopping
 ))}
 </div>
 {/* Custom Styles */}
-<style jsx>{`
+<style>{`
 .hide-scrollbar::-webkit-scrollbar {
 display: none;
 }
